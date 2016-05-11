@@ -1,4 +1,4 @@
-# livescore-scrapper
-Livescore index page scrapper coded in nodejs
+# livescore-scraper
+Livescore index page scraper coded in nodejs
 <br>
 <img src="Screenshot.png" />
