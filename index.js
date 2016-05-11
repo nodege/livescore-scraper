@@ -4,14 +4,14 @@ var express = require('express')
 var app = express()
 
 app.get('/', function(req, res) {
-    var user_id = req.param('id');
+    var team_name = req.param('id');
 
     function display(arr) {
-        if (user_id.length <= 3) {
+        if (team_name.length <= 3) {
             res.send("Name is to short")
         } else {
             var items = arr.filter(function (item) {
-                return item.indexOf(user_id) > -1;
+                return item.indexOf(team_name) > -1;
             });
             
             if (items.length) {
